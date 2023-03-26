@@ -1,0 +1,16 @@
+{
+  "hosting": {
+    "public": "dist/tpf-argentina-programa-santiago-gabriel-medina-luna",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
