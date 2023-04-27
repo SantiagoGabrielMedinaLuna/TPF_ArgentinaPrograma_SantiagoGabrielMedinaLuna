@@ -1,4 +1,4 @@
 FROM amazoncorretto:11-alpine-jdk
 MAINTAINER SANTIAGOGML
-COPY target/Santiago-0.0.1-SNAPSHOT.jar santiagogml-app.jar
+COPY target/Santiago-0.0.1-SNAPSHOT.jar SANTIAGOGML.jar
 ENTRYPOINT ["java","-jar","/santiagogml-app.jar"]
